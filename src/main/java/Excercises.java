@@ -87,6 +87,11 @@ public class Excercises {
 
     }
 
+    public static boolean Hi() {
+        System.out.println("Hi");
+        return true;
+    }
+
     public static boolean icyHot(int temp1, int temp2) {
 
         return (temp1>100 && temp2<0) || (temp1<0 && temp2 >100);
