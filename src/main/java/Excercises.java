@@ -65,11 +65,13 @@ public class Excercises {
 
     public static String front22(String str) {
 
-        if (str.length()<2) {
+        if (str.length()<3) {
             return str + str + str;
         }
 
-        String temp = str.substring(0,2);
+        // String temp = str.substring(0,2);
+
+        String temp = str.substring(0,3);
 
         return temp + str + temp;
 
