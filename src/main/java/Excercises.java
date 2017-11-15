@@ -65,7 +65,7 @@ public class Excercises {
 
     public static String front22(String str) {
 
-        if (str.length()<2) {
+        if (str.length() < 2) {
             return str + str + str;
         }
 
@@ -77,11 +77,11 @@ public class Excercises {
 
     public static boolean startHi(String str) {
 
-        if (str.length()<2) {
+        if (str.length() < 2) {
             return false;
         }
 
-        return str.substring(0,2).equals("hi");
+        return str.substring(0, 2).equals("hi");
 
     }
 
